@@ -74,12 +74,19 @@ _Response Examples:_
 1. **Clone the repository**
    ```sh
    git clone https://github.com/ZdjelarFilip/DiffingAPISolution
-   cd DiffingAPI
+   cd DiffingAPISolution
    ```
 
 2. **Build & Run the API**
    ```sh
    dotnet build
+
+   cd DiffingAPI
+   dotnet run
+
+   cd ..
+
+   cd DiffingAPI.Tests
    dotnet run
    ```
 
